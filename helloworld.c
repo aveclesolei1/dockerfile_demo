@@ -7,7 +7,7 @@ int main()
 	FILE *fp;
 	int len;
 	printf("helloworld\n2018051319_yixiancao!\n");
-	if((fp = fopen("helloworld.txt","r")) == NULL)
+	if((fp = fopen("/usr/src/helloworld.txt","r")) == NULL)
 	{
 		printf("fail to read\n");
 		return 0;
