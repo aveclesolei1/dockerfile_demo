@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-int main()
+int main(int argc, char *argv[])
 {
 	char buf[100];
 	FILE *fp;
 	int len;
-	printf("helloworld\n2018051319_yixiancao!\n");
-	if((fp = fopen("/usr/src/helloworld.txt","r")) == NULL)
+	printf("helloworld\n2018051319_yixiancao\n");
+	if((fp = fopen("src/helloworld.txt","r")) == NULL)
 	{
 		printf("fail to read\n");
 		return 0;
