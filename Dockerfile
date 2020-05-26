@@ -1,9 +1,9 @@
 FROM ubuntu:latest
 
-ENV env /usr/src
+ENV env /usr
 ENV LANG C.UTF-8
 
-WORKDIR /usr/src
+WORKDIR /usr
 
 COPY helloworld.c .
 
